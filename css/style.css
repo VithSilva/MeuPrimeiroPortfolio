@@ -1,0 +1,122 @@
+:root {
+  --primary-color: #0284c7;
+  --primary-dark: #0c4a6e;
+  --accent-color: #38bdf8;
+  --bg-color: #f0f9ff;
+  --card-bg: #ffffff;
+  --text-color: #1e293b;
+  --border-color: #bae6fd;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  background-color: var(--primary-dark);
+  color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 1rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+nav a:hover, nav a.active {
+  background-color: var(--primary-color);
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+section {
+  background-color: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+h2 {
+  color: var(--primary-color);
+  margin-bottom: 10px;
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 15px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.feedback-box {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  display: none;
+  font-weight: bold;
+}
+
+.feedback-box.sucesso {
+  background-color: #d1fae5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+  display: block;
+}
+
+.feedback-box.erro {
+  background-color: #fee2e2;
+  color: #991b1b;
+  border: 1px solid #fca5a5;
+  display: block;
+}
+
+.campo-erro {
+  border-color: #ef4444 !important;
+  background-color: #fef2f2;
+}
+
+.msg-erro-campo {
+  color: #dc2626;
+  font-size: 0.85rem;
+  margin-top: -0.5rem;
+  margin-bottom: 0.5rem;
+}
