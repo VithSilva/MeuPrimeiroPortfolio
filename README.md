@@ -1,6 +1,6 @@
-# Site Pessoal / Portfólio — CP3 
+# Site Pessoal / Portfólio — CP4 
 
-Este repositório contém a versão final do Checkpoint 3 (CP3) do site pessoal/portfólio feito para fins academicos.
+Este repositório contém a versão final do Checkpoint 4 (CP4) do site pessoal/portfólio feito para fins academicos.
 
 ## Link do Site Publicado
 - [https://vithsilva.github.io/MeuPrimeiroPortfolio/](https://vithsilva.github.io/MeuPrimeiroPortfolio/)
